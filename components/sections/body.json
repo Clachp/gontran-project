@@ -1,0 +1,16 @@
+{
+  "collectionName": "body",
+  "info": {
+    "name": "body",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "default": "Lorem ipsum",
+      "required": true,
+      "unique": true
+    }
+  }
+}

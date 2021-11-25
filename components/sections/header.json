@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_headers",
+  "info": {
+    "name": "header",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Lorem",
+      "required": true,
+      "unique": true,
+      "maxLength": 200
+    },
+    "pictures": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
